@@ -1,0 +1,222 @@
+2020-04-19 21:35:46 connectionpool.py [line:225: Starting new HTTP connection (1): 202.104.113.35:53281]
+2020-04-19 21:35:56 httpbin_validator.py [line:65: HTTPConnectionPool(host='202.104.113.35', port=53281): Read timed out. (read timeout=10)]
+Traceback (most recent call last):
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "E:\Apply_E\Anaconda3\lib\http\client.py", line 1344, in getresponse
+    response.begin()
+  File "E:\Apply_E\Anaconda3\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "E:\Apply_E\Anaconda3\lib\http\client.py", line 267, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "E:\Apply_E\Anaconda3\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Apply_E\Anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 400, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\packages\six.py", line 735, in reraise
+    raise value
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 423, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 331, in _raise_timeout
+    self, url, "Read timed out. (read timeout=%s)" % timeout_value
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='202.104.113.35', port=53281): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:/Sublime/Python/IPProxyPool/core/proxy_validate/httpbin_validator.py", line 49, in _check_http_proxies
+    response = requests.get(test_url, headers=get_request_headers(), proxies=proxies, timeout=TEST_TIMEOUT)
+  File "E:\Apply_E\Anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "E:\Apply_E\Anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Apply_E\Anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\Apply_E\Anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\Apply_E\Anaconda3\lib\site-packages\requests\adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='202.104.113.35', port=53281): Read timed out. (read timeout=10)
+2020-04-19 21:35:56 connectionpool.py [line:959: Starting new HTTPS connection (1): httpbin.org:443]
+2020-04-19 21:36:06 httpbin_validator.py [line:65: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /get (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x00000208052E23C8>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))]
+Traceback (most recent call last):
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\connection.py", line 300, in connect
+    conn = self._new_conn()
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
+    % (self.host, self.timeout),
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.VerifiedHTTPSConnection object at 0x00000208052E23C8>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Apply_E\Anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /get (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x00000208052E23C8>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:/Sublime/Python/IPProxyPool/core/proxy_validate/httpbin_validator.py", line 49, in _check_http_proxies
+    response = requests.get(test_url, headers=get_request_headers(), proxies=proxies, timeout=TEST_TIMEOUT)
+  File "E:\Apply_E\Anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "E:\Apply_E\Anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Apply_E\Anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\Apply_E\Anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\Apply_E\Anaconda3\lib\site-packages\requests\adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /get (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x00000208052E23C8>, 'Connection to 202.104.113.35 timed out. (connect timeout=10)'))
+2020-04-19 21:40:28 connectionpool.py [line:225: Starting new HTTP connection (1): 119.254.94.114:45691]
+2020-04-19 21:40:31 httpbin_validator.py [line:65: HTTPConnectionPool(host='119.254.94.114', port=45691): Max retries exceeded with url: http://httpbin.org/get (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B988879C48>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))]
+Traceback (most recent call last):
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "E:\Apply_E\Anaconda3\lib\http\client.py", line 1252, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "E:\Apply_E\Anaconda3\lib\http\client.py", line 1298, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "E:\Apply_E\Anaconda3\lib\http\client.py", line 1247, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "E:\Apply_E\Anaconda3\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "E:\Apply_E\Anaconda3\lib\http\client.py", line 966, in send
+    self.connect()
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000002B988879C48>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Apply_E\Anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='119.254.94.114', port=45691): Max retries exceeded with url: http://httpbin.org/get (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B988879C48>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:/Sublime/Python/IPProxyPool/core/proxy_validate/httpbin_validator.py", line 49, in _check_http_proxies
+    response = requests.get(test_url, headers=get_request_headers(), proxies=proxies, timeout=TEST_TIMEOUT)
+  File "E:\Apply_E\Anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "E:\Apply_E\Anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Apply_E\Anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\Apply_E\Anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\Apply_E\Anaconda3\lib\site-packages\requests\adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPConnectionPool(host='119.254.94.114', port=45691): Max retries exceeded with url: http://httpbin.org/get (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B988879C48>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2020-04-19 21:40:31 connectionpool.py [line:959: Starting new HTTPS connection (1): httpbin.org:443]
+2020-04-19 21:40:33 httpbin_validator.py [line:65: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /get (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000002B98A4B5988>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))]
+Traceback (most recent call last):
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\connection.py", line 300, in connect
+    conn = self._new_conn()
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x000002B98A4B5988>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Apply_E\Anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "E:\Apply_E\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /get (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000002B98A4B5988>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:/Sublime/Python/IPProxyPool/core/proxy_validate/httpbin_validator.py", line 49, in _check_http_proxies
+    response = requests.get(test_url, headers=get_request_headers(), proxies=proxies, timeout=TEST_TIMEOUT)
+  File "E:\Apply_E\Anaconda3\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "E:\Apply_E\Anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "E:\Apply_E\Anaconda3\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\Apply_E\Anaconda3\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\Apply_E\Anaconda3\lib\site-packages\requests\adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /get (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000002B98A4B5988>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+2020-04-19 21:45:41 connectionpool.py [line:225: Starting new HTTP connection (1): 115.218.4.18:9000]
+2020-04-19 21:45:44 connectionpool.py [line:959: Starting new HTTPS connection (1): httpbin.org:443]
+2020-04-19 21:46:36 connectionpool.py [line:225: Starting new HTTP connection (1): 58.249.55.222:9797]
+2020-04-19 21:46:46 connectionpool.py [line:959: Starting new HTTPS connection (1): httpbin.org:443]
+2020-04-19 21:47:48 connectionpool.py [line:225: Starting new HTTP connection (1): 81.95.131.10:44292]
+2020-04-19 21:47:58 connectionpool.py [line:959: Starting new HTTPS connection (1): httpbin.org:443]
