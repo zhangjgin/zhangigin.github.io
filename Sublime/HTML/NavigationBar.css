@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: #424242;
+	font-family:arial;
+}
+a{
+	text-decoration: none;
+}
+.nav{
+	list-style: none;
+}
+.nav .list-item{
+	float:left;
+	margin:0 10px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.nav .list-item a{
+	padding:0 5px;
+	color: #f40;
+	font-weight: bold;
+	height: 30px;
+	display: inline-block;
+	border-radius: 15px;
+}
+.nav .list-item a:hover{
+	background-color: #f40;
+	color: #fff;
+}
+.nav::after{
+	content: "";
+	dispay:block;
+	clear:both;
+}

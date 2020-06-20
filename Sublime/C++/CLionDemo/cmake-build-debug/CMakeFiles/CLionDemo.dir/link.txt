@@ -1,0 +1,3 @@
+"E:\Apply_E\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\CLionDemo.dir/objects.a
+E:\Apply_E\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe cr CMakeFiles\CLionDemo.dir/objects.a @CMakeFiles\CLionDemo.dir\objects1.rsp
+E:\Apply_E\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\CLionDemo.dir/objects.a -Wl,--no-whole-archive  -o CLionDemo.exe -Wl,--out-implib,libCLionDemo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CLionDemo.dir\linklibs.rsp

@@ -1,0 +1,139 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+ 
+#nav-b a {
+	color: black;
+}
+ 
+#nav-b a:hover {
+	color: blue;
+}
+ 
+.nav {
+	margin-top: 19px;
+	margin-bottom: 5px;
+	display: inline-block;
+	clear: both;
+	float: right;
+	padding-right: 10px;
+}
+ 
+.nav-a {
+	margin-left: 15px;
+	line-height: 24px;
+	font-size: 13px;
+	color: #666;
+	text-decoration: underline;
+	font-weight: bold;
+}
+ 
+#zzr {
+	display: inline;
+	list-style: none;
+}
+ 
+.nav li ul {
+	list-style: none;
+	display: none;
+	position: relative;
+}
+ 
+.nav li:hover ul {
+	border: 1px solid #ccc;
+	color: blue;
+	display: block;
+	position: absolute;
+	right: 60px;
+	top: 38px;
+}
+ 
+.shezhi {
+	text-decoration: none;
+	font-weight: normal;
+	padding-right: 15px;
+	margin-left: 15px;
+	line-height: 24px;
+	font-size: 9px;
+	color: #666;
+}
+ 
+.more {
+	margin-left: 15px;
+	line-height: 24px;
+	font-size: 13px;
+	background-color: #38f;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	width: 60px;
+	border: 5px;
+}
+ 
+#logo {
+	display: block;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 15px;
+}
+ 
+form {
+	width: 700px;
+	margin: 0 auto;
+}
+ 
+input {
+	padding: 0 0 0 7px;
+	width: 538px;
+	height: 33px;
+	border: 1px solid #b6b6b6;
+	 float:left;
+}
+ 
+.search_butt {
+	width: 100px;
+	height: 35px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border: 0;
+	background-color: #3385ff;
+	color: #fff;
+	font-size: 15px;
+}
+ 
+form button:hover {
+	cursor: pointer;
+}
+ 
+.footer {
+	text-align: center;
+	padding-top: 230px;
+}
+ 
+p {
+	font-size: 12px;
+	color: #999;
+}
+ 
+.about {
+	padding-top: 15px;
+}
+ 
+.foot {
+	font-size: 12px;
+	color: #999;
+	margin-left: 20px;
+}
+ 
+.foot a {
+	font-size: 12px;
+	color: #999;
+}
+ 
+.about-a {
+	font-size: 12px;
+	color: #999;
+	margin-left: 15px;
+}

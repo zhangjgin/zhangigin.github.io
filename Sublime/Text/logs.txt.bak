@@ -1,0 +1,312 @@
+C:\Users\ASUS\eclipse\java-2018-12\eclipse
+D:\1,Tomcat&Eclipse\eclipse
+browser-sync start --server "f:/sublime/HTML/html" --files "css/*.css"
+C:\Users\ASUS\AppData\Roaming\npm
+mysql -h  -u  root  -p 
+mysql -h 127.0.0.1 -u root -p
+mysql -h localhost -u root -p
+mysql -uroot  -p
+ browser-sync start --server --files "index.html"
+XFHWC-D3RK6-F9RGM-P2XG4-W79HC
+C:\Users\Administrator\AppData\Roaming\Sublime Text 3\Packages\User
+Oracle：
+sys/change_on_install
+system/manager
+scott/tiger
+C:\Program Files (x86)\Microsoft Visual Studio\VB98
+https://cloud.189.cn/t/rMBBzumqamie（访问码：c5gs）
+1. 以下产品需要安装支持的编译器:
+
+Simulink Coder
+Simulink Real-Time
+MATLAB Coder
+
+2. 要加快以下产品的计算速度，需要安装支持的编译器:
+
+SimBiology
+Fixed-Point Designer
+
+3. 此安装完成后，应按照从 www.mathworks.com/distconfig 获取的说明中所述继续配置 MATLAB Parallel Server。
+http://127.0.0.1:10810/pac/?t=211551
+Photoshop.exe
+Dreamweaver.exe
+C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+pip install requests -i https://pypi.douban.com/simple
+C:\Users\Administrator\AppData\Roaming\Sublime Text 3\Packages\User
+- defaults
+%USERPROFILE%\AppData\Local\Temp
+%SystemRoot%\TEMP
+pip install PyMongo -i https://pypi.douban.com/simple
+		"https://packagecontrol.io/channel_v3.json",
+		"https://erhan.in/channel_v3.json",
+		"https://raw.githubusercontent.com/wilon/sublime/master/download/channel_v3.json"
+		"http://www.miaoqiyuan.cn/products/proxy.php/https://packagecontrol.io/channel_v3.json"
+		"https://packagecontrol.io/channel_v3.json"
+		E:\\Apply_E\\Sublime Text 3\\channel_v3.json
+		"schema_version": "3.0.0",
+		Processes running in the session: | PID order 3748 1978 SSH - the keygen ? -t rsa - 921095 C.
+		ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDYUpaIdSVcJd6RgH7duFGkaEmaZi/piSCrH/P6fNwkl+bQl/Vfg1N8YjNZ90Ibr2hOwD+wsg6ueSEpenrwdh5CXfUkHVu6pkRT2Oz4Rq0MZ5LQ/FUUQkWs2K+Ufg9tmRdBcmcuTNPwM0PTpSDKj+LxLxhwzBLNibqMwZy2+aNpAx3VpQ1dUfMf3CiOgap75owFc+heEfj5rqbIaJjTbHJ+ZWxdfRRqPUbYH4FzHCcBT2BEch7IdQ8s4vg4QQMaH4OHopDNQGfCqKi8Twa6n8L/Zx/jPMPcmkrdw9tQX39HwqFJP3qNSyx8Kq8HzqMnqPjgdmCT0XQfumMpkOLKvxQGPlHChe4wFDIcbFEX1rcjW73f3q7+1tbSC2HlXygNwxE3TOPa1p8tCpTITd8MbWzjI9HEVjd1AGYWd5SM4a9yoaWspN7Jc6r75ELoUV56YHNNlU17wpI4X6na31Pka5gnXKs3KYkqoCtVythKLm4QLvi+NT087AWQAodZs23vrMk= 921095085@qq.com
+		DKFaiSho-SB
+		- https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+		  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+		  - https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
+C:\Program Files (x86)\Microsoft Visual Studio\VB98
+F5469@ioffice.email
+544018471
+chr(9)
+Option Base 1
+
+idea：htransp383
+	Crack168
+
+C:\Windows\System32\drivers\etc
+ADO
+
+C:\Users\Administrator\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\etc\apt\sources.list
+Normal.dot
+dp.getAddress();
+本机地址：192.168.6.1
+chcp 65001
+E:\Apply_E\OneDrive - Office 365\Documents\JetBrains\JAVA\JavaWeb02\Demo1\web\WEB-INF
+localhost
+<Host		appBase="E:\Sublime\JAVA\JspProject"		name="www.zhangjing.com">
+				<Context docBase="E:\Sublime\JAVA\JspProject" path="/" />
+
+</Host>
+127.0.0.1		www.zhangjing.com
+Provider=Microsoft.ACE.OLEDB.16.0;Data Source=E:\Sublime\VB\数据库\Database2.accdb;Persist Security Info=False
+Provider=Microsoft.ACE.OLEDB.16.0;Data Source=E:\Sublime\VB\数据库\Database2.accdb;Persist Security Info=False
+E:\Sublime\VB\数据库\Database2.accdb
+Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:\Sublime\VB\数据库\Database2.accdb;Persist Security Info=False
+Provider=Microsoft.ACE.OLEDB.16.0;Data Source=" & App.Path & "\Database1.mdb;Persist Security Info=False
+Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" & App.Path & "\数据库\Database2.accdb;Persist Security Info=False
+Provider=Microsoft.Jet.OLEDB.4.0;Data Source=E:\Sublime\VB\数据库\Database3.mdb;Persist Security Info=False
+Provider=Microsoft.Jet.OLEDB.4.0;Data Source="& App.Path & "\数据库\Database3.mdb;Persist Security Info=False
+http://download.eclipse.org/
+'1，定义创建连接变量
+'Dim con As New ADODB.Connection
+'2，建立数据库连接
+'con.Open "provider=microsoft.ace.oledb.12.0;data source=" & ThisWorkbook.Path & "\Test2.accdb"
+
+
+Option Explicit
+Dim con As New ADODB.Connection
+Dim rs As New ADODB.Recordset
+Sub Select其他字句()
+     Call 清除工作表数据
+    Call 连接数据库
+    Dim sql As String
+'===========================================================================
+    
+    
+'=============================================================================
+    Set rs = con.Execute(sql)
+    Dim i  As Integer
+    For i = 0 To rs.Fields.Count - 1
+        Cells(1, i + 1) = rs.Fields(i).Name
+    Next i
+    Range("A2").CopyFromRecordset rs
+    Call 释放变量空间
+    
+End Sub
+
+Sub 清除工作表数据()
+    Cells.Clear
+End Sub
+
+Sub 连接数据库()
+    con.Open "provider=microsoft.ace.oledb.12.0;data source=" & ThisWorkbook.Path & "/Test5.accdb"
+End Sub
+
+Sub 释放变量空间()
+    rs.Close: Set rs = Nothing
+    con.Close: Set con = Nothing
+End Sub
+
+http://localhost:8889/MyJspProject/Day3/show.jsp?uname=%E5%BA%84%E8%BE%BE%E8%8F%B2&upwd=111&uage=19&uhobbies=%E8%B6%B3%E7%90%83&uhobbies=%E7%AF%AE%E7%90%83
+Windows Registry Editor Version 5.00
+ ​
+ [HKEY_CLASSES_ROOT\Directory\Background\shell\wt]
+ @="Windows Terminal here"
+ "Icon"="E:\\Apply_E\\OneDrive - Office 365\\Pictures\\Saved Pictures\\terminal.ico"
+ ​
+ [HKEY_CLASSES_ROOT\Directory\Background\shell\wt\command]
+ @="C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe"
+
+Consolas, 'Courier New', monospace
+等距更纱黑体 SC
+E:/Apply_E/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32\bin/gdb.exe
+
+sh -c "$(wget -no-check-certificate https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
+curl -O -L https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh
+
+apt-get install ca-certificates
+		<%="当前的绝对路径："+application.getRealPath()%>
+    '多表查询（where）
+    '例1：查询所有学生的姓名、性别、选修的课程及成绩
+    sql = "select * from 学生,课程,成绩 where 学生.学号=成绩.学号 and 课程.课程代码=成绩.课程代码"
+    '例2：查询“王维欣”同学的性别、选修的课程名称及考试成绩
+    '例3：查询所有课程的平均成绩，结果包含课程名称、平均成绩2个字段
+
+sudo vim /etc/polipo/config
+robbyrussell
+Ubuntu 20.04 LTS
+
+sql = "select 课程名称,avg(成绩) as 平均成绩 "
+&"from 课程 inner join 成绩 on 课程.课程代码=成绩.课程代码 " _
+&"group by 课程名称"
+
+
+sql = "select 课程名称,avg(成绩) as 平均成绩 " _
+    & "from 课程 inner join 成绩 on 课程.课程代码=成绩.课程代码 " _
+    & "group by 课程名称"
+    
+"E:\Apply_E\Notepad++\notepad++.exe" -n%l "%f"
+
+"E:\\Apply_E\\Microsoft VS Code Insiders\\Code - Insiders.exe\" "E:\\Apply_E\\Microsoft VS Code Insiders\\resources\\app\\out\\cli.js\" -r -g \"%f:%l\"
+Oracle超级管理员：sqlplus / as sysdba
+sqlplus scott/tiger
+flexelint
+chcp 65001
+int price = 0;
+    printf("请输入金额（元）");
+    scanf("%d", &price);
+    int change = 100 - price;
+    printf("找您%d元\n", change);
+    return 0;
+plugins=( zsh-autosuggestions)
+Add-AppxPackage
+[guid]::NewGuid()
+{
+            // 每个 Profile 的唯一标识符，生成方法见下
+            "guid": "{3ab21dd4-05c2-41f0-bb6b-dfe7427214d9}",
+            // 设置为 true 即可在新建菜单中隐藏
+            "hidden": false,
+            // 名字，会显示在菜单中
+            "name": "Git",
+            // 启动命令行
+            "commandline": "bash.exe",
+            // 启动目录
+            "startingDirectory": ".",
+
+            // 背景图片
+            // "backgroundImage" : "X:\\path\\to\\background.png",
+            // "backgroundImageOpacity" : 0.5,
+            // "backgroundImageStretchMode" : "uniformToFill",
+
+            // 菜单与标签中显示的图标
+            "icon": "E:\\Apply_E\\OneDrive - Office 365\\Pictures\\Saved Pictures\\Git.jfif",
+            // 配色方案，见下
+            "colorScheme": "Tango Dark",
+            // 光标颜色
+            "cursorColor": "#FFFFFF"
+
+            // ... 其他配置请参见官方文档
+        }
+notepad $PROFILE
+λ
+winget
+94142d6ef5e6a10e73fb08aca6975fdcd809ec15
+3a0aea96b3bbb203e3cb7ed97049419aec251a16
+ba42b1b35408d41e8ee8fb5169d03d74
+
+3d7aa530a6f312f38fd73d707ae5eca43d83b3f3
+
+shadowsocks
+socks5
+V2Ray
+go install golang.org/x/tools/go/gcexportdata
+go install github.com/mdempsky/gocode
+go install golang.org/x/tools/cmd/guru
+go install golang.org/x/tools/cmd/gorename
+
+
+git clone https://gitee.com/zhang_jingao/tools.git tools
+
+
+go build -o %GOPATH%\\bin\\gopls.exe golang.org/x/tools/gopls
+
+
+go get -v -u golang.org/x/tools/gopls
+
+github.com/zmb3/gogetdoc
+
+go get -v -u github.com/mdempsky/gocode
+
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>MyJspProject</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
+
+tomcat闪退：双击shuntdown.bat
+
+ <Context docBase="MyJspProject" path="/MyJspProject" reloadable="true" source="org.eclipse.jst.jee.server:MyJspProject"/></Host>
+
+/Dao?method=delete&id
+?, ?, ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

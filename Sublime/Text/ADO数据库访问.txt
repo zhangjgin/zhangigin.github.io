@@ -1,0 +1,43 @@
+参考代码：
+通用模块
+Option Explicit
+
+‘取消按钮
+Private Sub Command2_Click()
+Dim i%
+i = MsgBox("你真的想要退出程序吗？", 1 + 64 + 256, "提示")
+If i = 1 Then
+End
+End If
+End Sub
+
+’登录按钮
+Private Sub Command1_Click()
+Dim cn As New ADODB.Connection  '定义数据库连接
+Dim rs As New ADODB.Recordset
+Dim str As String
+Static i As Integer
+Dim name As String
+Dim code As String
+name = Trim(Text1.Text)
+code = Trim(Text2.Text)
+cn.Open "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & App.Path & "\DATA\student.mdb;Persist Security Info=False"
+'str = "select * from student where username='" & uname & "'and password='" & pword & "'"
+str = "select * from student where username='" + name + "' and password='" + code + "'"
+rs.Open str, cn, adOpenKeyset, adLockReadOnly
+If rs.EOF Then
+    MsgBox "对不起，无此用户或者密码不正确，请重新输入！！", vbCritical, "错误"
+    Text1.Text = ""
+    Text2.Text = ""
+    Text1.SetFocus
+    i = i + 1
+    If i > 3 Then
+          MsgBox "你无权限！", vbCritical, "无权限"
+         Unload Me
+         End If
+        Else
+        Form2.Show
+         Unload Me
+         End If
+         End Sub
+    
