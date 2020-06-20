@@ -1,0 +1,9 @@
+Private Sub Command1_Click()
+Dim temp As String
+Dim i%
+temp = Text1.Text
+a = Split(temp, ",")
+For i = 0 To UBound(a)
+   Print a(i)
+Next i
+End Sub

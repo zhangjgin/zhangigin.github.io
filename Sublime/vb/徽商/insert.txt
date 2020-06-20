@@ -1,0 +1,38 @@
+
+Private Sub Form_Load()
+Text1.Text = ""
+Text2.Text = ""
+Text3.Text = ""
+
+End Sub
+'1 4 7 10 13 16 19 22 25
+'待插入的数：14
+Private Sub Command1_Click()
+Dim a%(1 To 10), i%, j%, num%, index%
+    For i = 1 To 9
+       a(i) = (i - 1) * 3 + 1  '等差数列
+       '文本框1显示待排序的序列
+       Text1.Text = Text1.Text & Space(1) & a(i)
+    Next i
+
+    
+'待插入的数num
+num = Val(Text2.Text)
+ For j = 1 To 9
+    If num < a(j) Then Exit For
+    index = j
+ Next j
+ 
+ '待插入位置的数全部后移一位
+ For i = 9 To j Step -1
+    a(i + 1) = a(i)
+  Next i
+  
+  '插入待插入的值
+a(index) = 14
+
+'在文本框3中显示插入值后的序列
+For i = 1 To 10
+  Text3.Text = Text3.Text & Space(1) & a(i)
+  Next i
+End Sub
