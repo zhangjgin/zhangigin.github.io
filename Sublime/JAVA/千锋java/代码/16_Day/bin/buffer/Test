@@ -1,0 +1,110 @@
+Classfile /E:/1812/Codes/day16/bin/buffer/TestStringBuilder.class
+  Last modified 2018-12-19; size 873 bytes
+  MD5 checksum 74d27ed9c1ccfd6a5b1caf2d62f11afd
+  Compiled from "TestStringBuilder.java"
+public class buffer.TestStringBuilder
+  minor version: 0
+  major version: 51
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Class              #2             // buffer/TestStringBuilder
+   #2 = Utf8               buffer/TestStringBuilder
+   #3 = Class              #4             // java/lang/Object
+   #4 = Utf8               java/lang/Object
+   #5 = Utf8               <init>
+   #6 = Utf8               ()V
+   #7 = Utf8               Code
+   #8 = Methodref          #3.#9          // java/lang/Object."<init>":()V
+   #9 = NameAndType        #5:#6          // "<init>":()V
+  #10 = Utf8               LineNumberTable
+  #11 = Utf8               LocalVariableTable
+  #12 = Utf8               this
+  #13 = Utf8               Lbuffer/TestStringBuilder;
+  #14 = Utf8               main
+  #15 = Utf8               ([Ljava/lang/String;)V
+  #16 = String             #17            // Hello
+  #17 = Utf8               Hello
+  #18 = Class              #19            // java/lang/StringBuilder
+  #19 = Utf8               java/lang/StringBuilder
+  #20 = Methodref          #21.#23        // java/lang/String.valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+  #21 = Class              #22            // java/lang/String
+  #22 = Utf8               java/lang/String
+  #23 = NameAndType        #24:#25        // valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+  #24 = Utf8               valueOf
+  #25 = Utf8               (Ljava/lang/Object;)Ljava/lang/String;
+  #26 = Methodref          #18.#27        // java/lang/StringBuilder."<init>":(Ljava/lang/String;)V
+  #27 = NameAndType        #5:#28         // "<init>":(Ljava/lang/String;)V
+  #28 = Utf8               (Ljava/lang/String;)V
+  #29 = String             #30            // World
+  #30 = Utf8               World
+  #31 = Methodref          #18.#32        // java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #32 = NameAndType        #33:#34        // append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #33 = Utf8               append
+  #34 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #35 = Methodref          #18.#36        // java/lang/StringBuilder.toString:()Ljava/lang/String;
+  #36 = NameAndType        #37:#38        // toString:()Ljava/lang/String;
+  #37 = Utf8               toString
+  #38 = Utf8               ()Ljava/lang/String;
+  #39 = Fieldref           #40.#42        // java/lang/System.out:Ljava/io/PrintStream;
+  #40 = Class              #41            // java/lang/System
+  #41 = Utf8               java/lang/System
+  #42 = NameAndType        #43:#44        // out:Ljava/io/PrintStream;
+  #43 = Utf8               out
+  #44 = Utf8               Ljava/io/PrintStream;
+  #45 = Methodref          #46.#48        // java/io/PrintStream.println:(Ljava/lang/String;)V
+  #46 = Class              #47            // java/io/PrintStream
+  #47 = Utf8               java/io/PrintStream
+  #48 = NameAndType        #49:#28        // println:(Ljava/lang/String;)V
+  #49 = Utf8               println
+  #50 = Utf8               args
+  #51 = Utf8               [Ljava/lang/String;
+  #52 = Utf8               str
+  #53 = Utf8               Ljava/lang/String;
+  #54 = Utf8               SourceFile
+  #55 = Utf8               TestStringBuilder.java
+{
+  public buffer.TestStringBuilder();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #8                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 3: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lbuffer/TestStringBuilder;
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=2, args_size=1
+         0: ldc           #16                 // String Hello
+         2: astore_1
+         3: new           #18                 // class java/lang/StringBuilder
+         6: dup
+         7: aload_1
+         8: invokestatic  #20                 // Method java/lang/String.valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+        11: invokespecial #26                 // Method java/lang/StringBuilder."<init>":(Ljava/lang/String;)V
+        14: ldc           #29                 // String World
+        16: invokevirtual #31                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        19: invokevirtual #35                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+        22: astore_1
+        23: getstatic     #39                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        26: aload_1
+        27: invokevirtual #45                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        30: return
+      LineNumberTable:
+        line 7: 0
+        line 9: 3
+        line 11: 23
+        line 13: 30
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      31     0  args   [Ljava/lang/String;
+            3      28     1   str   Ljava/lang/String;
+}
+SourceFile: "TestStringBuilder.java"

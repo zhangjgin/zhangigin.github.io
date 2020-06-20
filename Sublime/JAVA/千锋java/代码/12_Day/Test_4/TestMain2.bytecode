@@ -1,0 +1,68 @@
+Classfile /E:/1812/Codes/Day12/Test_4/TestMain2.class
+  Last modified 2018-12-15; size 347 bytes
+  MD5 checksum 87fd1e1bba5783476e50b69f2f790516
+  Compiled from "TestMain2.java"
+public class TestMain2
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #7.#16         // java/lang/Object."<init>":()V
+   #2 = Class              #17            // Sub
+   #3 = Methodref          #2.#16         // Sub."<init>":()V
+   #4 = Methodref          #18.#19        // Super.m1:()V
+   #5 = Methodref          #18.#20        // Super.m2:()V
+   #6 = Class              #21            // TestMain2
+   #7 = Class              #22            // java/lang/Object
+   #8 = Utf8               <init>
+   #9 = Utf8               ()V
+  #10 = Utf8               Code
+  #11 = Utf8               LineNumberTable
+  #12 = Utf8               main
+  #13 = Utf8               ([Ljava/lang/String;)V
+  #14 = Utf8               SourceFile
+  #15 = Utf8               TestMain2.java
+  #16 = NameAndType        #8:#9          // "<init>":()V
+  #17 = Utf8               Sub
+  #18 = Class              #23            // Super
+  #19 = NameAndType        #24:#9         // m1:()V
+  #20 = NameAndType        #25:#9         // m2:()V
+  #21 = Utf8               TestMain2
+  #22 = Utf8               java/lang/Object
+  #23 = Utf8               Super
+  #24 = Utf8               m1
+  #25 = Utf8               m2
+{
+  public TestMain2();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 1: 0
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=2, args_size=1
+         0: new           #2                  // class Sub
+         3: dup
+         4: invokespecial #3                  // Method Sub."<init>":()V
+         7: astore_1
+         8: aload_1
+         9: pop
+        10: invokestatic  #4                  // Method Super.m1:()V
+        13: aload_1
+        14: invokevirtual #5                  // Method Super.m2:()V
+        17: return
+      LineNumberTable:
+        line 3: 0
+        line 5: 8
+        line 7: 13
+        line 8: 17
+}
+SourceFile: "TestMain2.java"
