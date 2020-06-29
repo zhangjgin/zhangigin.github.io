@@ -256,12 +256,18 @@ tomcat闪退：双击shuntdown.bat
 /Dao?method=delete&id
 ?, ?, ?
 GItHub
-
-
-
-
-
-
+::立即关机
+shutdown -s -t 0
+::锁定Windows
+rundll32.exe user32.dll,LockWorkStation
+DelegateExecute
+{11dbb47c-a525-400b-9e80-a54615a090c0}
+E:\Apply_E\XYplorer/XYplorer.exe
+%1
+1ee3998b9c7e05ac652be8b5b9781403617056db
+https://raw.githubusercontent.com/zhangjign/Picture/master
+https://cdn.jsdelivr.net/gh/zhangjign/Picture
+E:\Apply_E\XYplorer\XYplorer.exe %2
 
 
 
