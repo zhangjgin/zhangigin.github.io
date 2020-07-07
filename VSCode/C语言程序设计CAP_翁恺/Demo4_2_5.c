@@ -1,3 +1,4 @@
+#include<stdio.h>
 int main(int argc, char const *argv[])
 {
     int x;
@@ -8,7 +9,7 @@ int main(int argc, char const *argv[])
     while (x > 0)
     {
         digit = x%10; //获得个位数
-        //printf("%d\n",digit);
+        printf("%d\n",digit);
         ret = ret * 10 + digit;
         printf("x = %d,digit = %d,ret = %d\n",x,digit,ret);
         x /= 10;
